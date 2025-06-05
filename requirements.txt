@@ -1,0 +1,5 @@
+# requirements.txt 예시
+pycryptodome  # AES 암호화를 위한 패키지
+pywireguard   # WireGuard 관련 라이브러리
+
+// $ pip install -r requirements.txt
