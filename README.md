@@ -3,6 +3,7 @@
 **Gurumi**는 P2P 구조 기반의 분산 클라우드 실험용 프로젝트로, 수요자-공급자 간 안전한 작업 전송 및 처리를 실현하는 Mutual Cloud 모델입니다.
 
 ## 프로젝트 구조
+```
 Gurumi-Main/
 ├── common/ # 공통 설정 및 로깅, 유틸리티 모듈
 ├── demand_node/ # 수요자 노드 클라이언트 관련 모듈
@@ -10,7 +11,7 @@ Gurumi-Main/
 ├── requirements.txt # Python 의존 패키지 명세
 ├── run_demo.sh # 데모 실행 스크립트
 ├── GroundRule.md # 프로젝트 규칙 또는 설명 문서
-
+```
 
 ## 실행 방법
 
