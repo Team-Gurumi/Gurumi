@@ -1,4 +1,4 @@
-# Gurumi Mutual Cloud System
+# Team9_Gurumi Mutual Cloud System
 
 **Gurumi**는 P2P 구조 기반의 분산 클라우드 실험용 프로젝트로, 수요자-공급자 간 안전한 작업 전송 및 처리를 실현하는 Mutual Cloud 모델입니다.
 
@@ -17,12 +17,14 @@ Gurumi-Main/
 1. Python 환경 설정 (Python 3.8 이상 추천)
 2. 패키지 설치
 
-```bash
+```
 pip install -r requirements.txt
-bash```
+```
 
 3. 데모 실행
+```
 bash run_demo.sh
+```
 
 ## 주요 기능 설명
 수요자 노드 (demand_node/)
@@ -62,10 +64,10 @@ GroundRule.md: 실험 가이드 및 규칙
 기술 시나리오 및 구조 설명은 /docs 혹은 보고서 참조
 
 ## 팀 정보 및 기여자
-팀장: 실험 전체 설계 및 코드 작성
+금채원(2276029): 실험 전체 설계 및 코드 작성
 
-서영: 실험 영상 촬영 및 편집, UI 시나리오 테스트
+이서영(2276218): 실험 영상 촬영 및 편집, UI 시나리오 테스트
 
-예린: 보안 구조 조사, 기술 확장 및 후속 전략 설계
+송예린(2171023): 보안 구조 조사, 기술 확장 및 후속 전략 설계
 
 
