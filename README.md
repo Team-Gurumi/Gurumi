@@ -50,13 +50,13 @@ logger.py: 실험 로깅 도구
 utils.py: 기타 보조 기능
 
 ## 보안 구조
-WireGuard 기반 암호화된 네트워크 통신
+- WireGuard 기반 암호화된 네트워크 통신
 
-AES (pycryptodome) 기반 데이터 암호화
+- AES (pycryptodome) 기반 데이터 암호화
 
-VM → WireGuard 라우팅을 통한 격리된 네트워크 환경
+- VM → WireGuard 라우팅을 통한 격리된 네트워크 환경
 
-향후 Confidential Computing 기반 격리 확장 고려
+- 향후 Confidential Computing 기반 격리 확장 고려
 
 ## 참고 문서
 GroundRule.md: 실험 가이드 및 규칙
