@@ -18,7 +18,8 @@ Gurumi-Main/
 2. 패키지 설치
 
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+bash```
 
 3. 데모 실행
 bash run_demo.sh
