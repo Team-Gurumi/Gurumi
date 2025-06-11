@@ -18,12 +18,12 @@ Gurumi-Main/
 2. 패키지 설치
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 3. 데모 실행
 bash run_demo.sh
 
-🧩 주요 기능 설명
+## 주요 기능 설명
 수요자 노드 (demand_node/)
 
 client.py: 작업을 서버로 전송하는 기본 클라이언트
@@ -46,7 +46,7 @@ logger.py: 실험 로깅 도구
 
 utils.py: 기타 보조 기능
 
-🔐 보안 구조
+## 보안 구조
 WireGuard 기반 암호화된 네트워크 통신
 
 AES (pycryptodome) 기반 데이터 암호화
@@ -55,18 +55,16 @@ VM → WireGuard 라우팅을 통한 격리된 네트워크 환경
 
 향후 Confidential Computing 기반 격리 확장 고려
 
-📚 참고 문서
+## 참고 문서
 GroundRule.md: 실험 가이드 및 규칙
 
 기술 시나리오 및 구조 설명은 /docs 혹은 보고서 참조
 
-🙋 팀 정보 및 기여자
+## 팀 정보 및 기여자
 팀장: 실험 전체 설계 및 코드 작성
 
 서영: 실험 영상 촬영 및 편집, UI 시나리오 테스트
 
 예린: 보안 구조 조사, 기술 확장 및 후속 전략 설계
 
-yaml
-복사
-편집
+
