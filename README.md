@@ -27,7 +27,7 @@ bash run_demo.sh
 ```
 
 ## 주요 기능 설명
-수요자 노드 (demand_node/)
+1. 수요자 노드 (demand_node/)
 
 client.py: 작업을 서버로 전송하는 기본 클라이언트
 
@@ -35,13 +35,13 @@ client_safe.py: AES 암호화를 적용한 안전 전송 클라이언트
 
 encryption.py: 암복호화 모듈
 
-공급자 노드 (supply_node/)
+2. 공급자 노드 (supply_node/)
 
 processor.py: 작업 수신 후 실행 및 결과 반환 로직
 
 encryption.py: 수신된 데이터를 복호화하는 모듈
 
-공통 모듈 (common/)
+3. 공통 모듈 (common/)
 
 config.py: 시스템 설정값 관리
 
